@@ -1,0 +1,80 @@
+{
+	"0": {
+		"name": "START",
+		"file_path": "textures/START.png",
+		"rotation": 0,
+		"flow_rate": 0.01,
+		"connections": ["up", "down", "left", "right"]
+	},
+	"1": {
+		"name": "END",
+		"file_path": "textures/END.png",
+		"rotation": 0,
+		"flow_rate": 0.01,
+		"connections": ["up", "down", "left", "right"]
+	},
+	"2": {
+		"name": "VERTICAL",
+		"file_path": "textures/STRAIGHT.png",
+		"rotation": 0,
+		"flow_rate": 0.005,
+		"connections": ["up", "down"],
+		"weight": 1
+	},
+	"3": {
+		"name": "HORIZONTAL",
+		"file_path": "textures/STRAIGHT.png",
+		"rotation": 90,
+		"flow_rate": 0.005,
+		"connections": ["left", "right"],
+		"weight": 1
+	},
+	"4": {
+		"name": "UL_CURVE",
+		"file_path": "textures/CURVE.png",
+		"rotation": 90,
+		"flow_rate": 0.005,
+		"connections": ["up", "left"],
+		"weight": 1
+	},
+	"5": {
+		"name": "UR_CURVE",
+		"file_path": "textures/CURVE.png",
+		"rotation": 0,
+		"flow_rate": 0.005,
+		"connections": ["up", "right"],
+		"weight": 1
+	},
+	"6": {
+		"name": "DL_CURVE",
+		"file_path": "textures/CURVE.png",
+		"rotation": 180,
+		"flow_rate": 0.005,
+		"connections": ["down", "left"],
+		"weight": 1
+	},
+	"7": {
+		"name": "DR_CURVE",
+		"file_path": "textures/CURVE.png",
+		"rotation": 270,
+		"flow_rate": 0.005,
+		"connections": ["down", "right"],
+		"weight": 1
+	},
+	"8": {
+		"name": "VERTICAL_SLOWED",
+		"file_path": "textures/SLOWED.png",
+		"rotation": 0,
+		"flow_rate": 0.002,
+		"connections": ["up", "down"],
+		"weight": 0.1
+	},
+	"9": {
+		"name": "HORIZONTAL_SLOWED",
+		"file_path": "textures/SLOWED.png",
+		"rotation": 90,
+		"flow_rate": 0.002,
+		"connections": ["left", "right"],
+		"weight": 0.1
+	}
+}
